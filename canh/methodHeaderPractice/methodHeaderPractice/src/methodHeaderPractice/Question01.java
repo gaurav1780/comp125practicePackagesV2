@@ -15,5 +15,6 @@ public class Question01 {
 		assertFalse(isPositive(-0.1));
 		assertFalse(isPositive(0));
 		assertFalse(isPositive(-90));
+		assertFalse(isPositive(Integer.MIN_VALUE)); //for completeness
 	}
 }
