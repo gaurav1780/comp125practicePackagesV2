@@ -14,5 +14,6 @@ public class Question01 {
 		assertTrue(isPositive(1.5));
 		assertFalse(isPositive(-0.1));
 		assertFalse(isPositive(0));
+		assertFalse(isPositive(-90));
 	}
 }
