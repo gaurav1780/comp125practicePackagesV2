@@ -18,3 +18,15 @@ public class Question01 {
 		assertFalse(isPositive(Integer.MIN_VALUE)); //for completeness
 	}
 }
+
+/*
+ * square(int):int
+ * higher(int,int):int
+ * highest(int,int,int):int
+ * isInRange(int,int,int):boolean
+ * isDivisibleBy(int,int):boolean
+ * getLastDigit(int):int
+ * xor(boolean,boolean):boolean
+ * sum(int,int):int (assuming first int <= second int)
+ */
+*/
