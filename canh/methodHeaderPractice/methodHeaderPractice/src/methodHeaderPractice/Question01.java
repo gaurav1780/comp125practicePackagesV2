@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 public class Question01 {
 	/**
-	 * 
+	 *
 	 * @param val
-	 * @return true if val is positive (more than 0), false otherwise 
+	 * @return true if val is positive (more than 0), false otherwise
 	 */
-	
+
 	@Test
 	void testIsPositive() {
 		assertTrue(isPositive(1.5));
@@ -27,6 +27,6 @@ public class Question01 {
  * isDivisibleBy(int,int):boolean
  * getLastDigit(int):int
  * xor(boolean,boolean):boolean
- * sum(int,int):int (assuming first int <= second int)	
+ * sum(int,int):int (assuming first int <= second int)
  */
 */
