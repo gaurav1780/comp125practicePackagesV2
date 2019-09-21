@@ -23,4 +23,10 @@ public class Question10 {
 		int[] c = {};
 		assertEquals(0, sum(c));
 	}
+	
+	/*
+	 * countNegatives(int[]):int
+	 * containsEven(int[]):boolean
+	 * allOdd(int[]):boolean
+	 */
 }

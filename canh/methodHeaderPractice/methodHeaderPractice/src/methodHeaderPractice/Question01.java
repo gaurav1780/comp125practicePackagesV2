@@ -27,6 +27,6 @@ public class Question01 {
  * isDivisibleBy(int,int):boolean
  * getLastDigit(int):int
  * xor(boolean,boolean):boolean
- * sum(int,int):int (assuming first int <= second int)
+ * sum(int,int):int (assuming first int <= second int)	
  */
 */
