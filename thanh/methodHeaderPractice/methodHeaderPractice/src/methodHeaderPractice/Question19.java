@@ -7,7 +7,10 @@ public class Question19 {
 	 * @param arr1, arr2
 	 * @return true if the two arrays are identical, false otherwise
 	 * @return false otherwise
-	 * 
+	 * Example:
+	 *	int[] a1 =  { -5, -6 , 4, 1, 3};
+	 *	int[] a2 = { -5, -6 , 4, 1, 3};	 => return true.
+	 *	Because all items in the arr1 are the same with these on arr2 (the same order also)
 	 */
 
 	@Test
