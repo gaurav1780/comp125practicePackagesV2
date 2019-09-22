@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class Question17 {
 	/**
-	 * 
+	 * Asume that the size of the input Array is even.
 	 * @param data
 	 * @return false if data is empty or null
 	 * 
@@ -13,6 +13,10 @@ public class Question17 {
 	 * Note: 0 is neither negative nor positive
 	 * @return false otherwise
 	 * 
+	 *For example:
+	 *	int data[4] = {-4,-2, 1,0};
+	 *	=> should return True because the first 2 items are negative (-4 and -2)
+	 *	   and the last 2 items are positive (1 and 0)
 	 */
 
 	@Test
