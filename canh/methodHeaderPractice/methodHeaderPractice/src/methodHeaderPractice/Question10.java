@@ -25,8 +25,18 @@ public class Question10 {
 	}
 	
 	/*
-	 * countNegatives(int[]):int
-	 * containsEven(int[]):boolean
-	 * allOdd(int[]):boolean
+	 * 11 countNegatives(int[]):int
+	 * 12 sumInRange(int[], int, int): int
+	 * 13 countNotInRange(int[], int, int): int
+	 * 14 containsEven(int[]):boolean
+	 * 15 allOdd(int[]):boolean
+	 * 16 isBalanced(int[]):boolean (true if exactly half values even and half odd)
+	 * 17 firstHalfSecondHalfBasic(int[]): (true if all items of the first half are negative, 
+	 *                and the second half are positive, assuming array contains an even number of items
+	 * 18 firstHalfSecondHalf(int[]): (true if all items of the first half are negative, 
+	 *                and the second half are positive. If array contains an odd number of items,
+	 *                the middle item is considered to be in the right half).
+	 * 19  identical(int[], int[]): return true if the two arrays are identical, false otherwise
+	 * 20 eachItemDifferent(int[]): return true if each item is different, false otherwise 
 	 */
 }
