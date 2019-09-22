@@ -24,7 +24,7 @@ public class Question13 {
 		assertEquals(0, countNotInRange(empty, 2, 4));
 		
 		assertEquals(0, countNotInRange(a, 4, 6));
-		assertEquals(2, countNotInRange(b, -9, 20));
+		assertEquals(3, countNotInRange(b, -9, 20));
 		assertEquals(5, countNotInRange(b, 0, 0));
 		assertEquals(5, countNotInRange(c, 0, 1));
 		assertEquals(0, countNotInRange(d, -1, -1));
