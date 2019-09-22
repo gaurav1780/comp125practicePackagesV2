@@ -10,6 +10,7 @@ public class Question17 {
 	 * 
 	 * @return true if all items of the first half are negative, 
 	 * and the second half are positive, assuming array contains an even number of items
+	 * Note: 0 is neither negative nor positive
 	 * @return false otherwise
 	 * 
 	 */

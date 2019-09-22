@@ -12,6 +12,7 @@ public class Question18 {
 	 * and the second half are positive 
 	 * If array contains an odd number of items,
 	 * the middle item is considered to be in the right half.
+	 * Note: 0 is neither negative nor positive
 	 * 
 	 * @return false otherwise
 	 * 
@@ -27,7 +28,8 @@ public class Question18 {
 		int[] e = {-1, -5, 5, 4};
 		int[] f = { -5, -4, -2, -5, 4, 5, 4, 0};
 		int[] g = { -5, -4, -2, -5, 4, 5, 4, 10, 5};
-		
+		int[] h = {0,0};
+		int[] i = {-1,0,0};
 		assertFalse(firstHalfSecondHalf(null));
 		assertFalse(firstHalfSecondHalf(empty));
 		
@@ -39,7 +41,11 @@ public class Question18 {
 		
 		assertTrue(firstHalfSecondHalf(e));
 		assertFalse(firstHalfSecondHalf(f));
+		
 		assertTrue(firstHalfSecondHalf(g));
+		assertFalse(firstHalfSecondHalf(h));
+		
+		assertFalse(firstHalfSecondHalf(i));
 		
 	}
 	
