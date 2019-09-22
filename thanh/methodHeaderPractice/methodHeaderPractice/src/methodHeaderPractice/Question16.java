@@ -9,9 +9,12 @@ public class Question16 {
 	 * @return false if data is empty or null
 	 * 
 	 * @return true if EXACTLY a half of the number of values of data are even
-	 * 
 	 * @return false otherwise
-	 * 
+	 * For example:
+	 *	int[] data= {-10, -20, -30, -40, -50,-60};
+	 *	=> there are 5 even numbers and the size of the array is 5
+	 *	=> return false because the number of even numbers is not
+	 *	   equal to a half of the array size.
 	 */
 
 	@Test
