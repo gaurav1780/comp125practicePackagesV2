@@ -17,7 +17,7 @@ public class Question16 {
 	@Test
 	void testIsBalanced() {
 		int[] empty = {};
-		int[] a =  { 5, 6 , 4, 1};
+		int[] a =  { 5, 6 , -4, -1};
 		int[] b = {-10, 0 , 5, 20, -55, 100, 0};
 		int[] c= {-10, -20, -30, -40, -50};
 		int[] d = {-1,1};

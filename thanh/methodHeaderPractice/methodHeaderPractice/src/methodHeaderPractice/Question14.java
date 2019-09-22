@@ -19,7 +19,7 @@ public class Question14 {
 		int[] a =  { 5, 6 ,4};
 		int[] b = {-10, 0 , 5, 20, -55, 100, 0};
 		int[] c= {-10, -20, -30, -40, -50};
-		int[] d = {-1};
+		int[] d = {-1,5,7};
 		
 		assertFalse(containsEven(null));
 		assertFalse(containsEven(empty));
