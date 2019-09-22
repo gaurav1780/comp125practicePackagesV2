@@ -27,7 +27,7 @@ public class Question12 {
 		assertEquals(15, sumInRange(a, 4, 6));
 		assertEquals(25, sumInRange(b, 0, 99));
 		assertEquals(-150, sumInRange(c, -50, -10));
-		assertEquals(-20, sumInRange(c, -20, -21));
+		assertEquals(-20, sumInRange(c, -21, -20));
 		assertEquals(-1, sumInRange(d, -5, 5));
 	}
 	
