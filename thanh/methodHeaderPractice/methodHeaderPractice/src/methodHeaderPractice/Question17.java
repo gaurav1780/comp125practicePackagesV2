@@ -14,7 +14,7 @@ public class Question17 {
 	 * @return false otherwise
 	 * 
 	 *For example:
-	 *	int data[4] = {-4,-2, 1,0};
+	 *	int[] data = {-4,-2, 1,0};
 	 *	=> should return True because the first 2 items are negative (-4 and -2)
 	 *	   and the last 2 items are positive (1 and 0)
 	 */
