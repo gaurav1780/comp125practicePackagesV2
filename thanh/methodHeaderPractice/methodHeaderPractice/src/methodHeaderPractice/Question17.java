@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 public class Question17 {
 	/**
-	 * Asume that the size of the input Array is even.
 	 * @param data
 	 * @return false if data is empty or null
 	 * 
