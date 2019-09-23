@@ -13,13 +13,6 @@ public class Question18 {
 	 * If array contains an odd number of items,
 	 * the middle item is considered to be in the right half.
 	 * Note: 0 is neither negative nor positive
-	 * 	
-	 * @return false otherwise
-	 * For example:
-	 *	int[] data =  { -5, -6 , 4, 1, 0};		=> return false because:
-	 *	The left half is {-5,-6} => all negative
-	 *	The Right half is (4,1,0) => 0 is not positive 
-	 *
 	 */
 
 	@Test
