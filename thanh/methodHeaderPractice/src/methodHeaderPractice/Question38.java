@@ -13,7 +13,19 @@ public class Question38 {
 
 	@Test
 	void testCount() {
-		assertEquals(0, count(null));
+		/* Does these 2 test cases (line 17 and 18) having no passed parameter for char 'something'
+		 mean students have to know method overloading? 
+		That is, in the first 2 test cases, the function count is:
+		public static int count(String str)
+		
+		and in the third test case onward, the function count is:
+		public static int count(String str, char ch)
+		
+		If not, I'd suggest something like:
+		assertEquals(0, count(null, '0')); 
+		assertEquals(0, count("", '0'));
+		*/
+		assertEquals(0, count(null)); 
 		assertEquals(0, count(""));
 		assertEquals(3, count("Hello World",'l'));
 		assertEquals(2, count("Super Super",'p'));
