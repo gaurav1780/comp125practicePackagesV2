@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Question34 {
-	/**
-	 * @param str
+	/** 
+	 * @param str, assume not null
 	 * @return a similar string without the first character of String str
 	 */
 
