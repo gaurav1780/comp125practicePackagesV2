@@ -59,7 +59,7 @@ class ListPracticalTest {
 	void testLastItem() {
 		assertNull(ListPractical.lastItem(nullList));
 		assertNull(ListPractical.lastItem(emptyList));
-		
+
 		assertNotNull(ListPractical.lastItem(list));
 		assertTrue(-80,ListPractical.lastItem(list));
 	}
@@ -68,14 +68,14 @@ class ListPracticalTest {
 	void testSumFirstLast() {
 		assertNull(ListPractical.sumFirstLast(nullList));
 		assertNull(ListPractical.sumFirstLast(emptyList));
-		
+
 		assertNotNull(ListPractical.sumFirstLast(singleItemList));
 		assertTrue(50,ListPractical.sumFirstLast(singleItemList));
-		
+
 		assertNotNull(ListPractical.sumFirstLast(list));
 		assertTrue(-70,ListPractical.sumFirstLast(list));
 	}
-	
+
 	@Test
 	void testSum() {
 		assertEquals(0, ListPractical.sum(nullList));
@@ -90,17 +90,17 @@ class ListPracticalTest {
 	void testCountPositives() {
 		assertNotNull(ListPractical.countPositives(nullList));
 		assertTrue(0,ListPractical.countPositives(nullList));
-		
+
 		assertNotNull(ListPractical.countPositives(emptyList));
 		assertTrue(0,ListPractical.countPositives(emptyList));
-		
+
 		assertNotNull(ListPractical.countPositives(singleItemList));
 		assertTrue(1,ListPractical.countPositives(singleItemList));
-		
+
 		assertNotNull(ListPractical.countPositives(list));
 		assertTrue(3,ListPractical.countPositives(list));
 		list.add(90); //another 90 added to the end of the list
-		
+
 		assertNotNull(ListPractical.countPositives(list));
 		assertTrue(4,ListPractical.countPositives(list));
 	}
@@ -109,10 +109,10 @@ class ListPracticalTest {
 	void testMedian() {
 		assertNull(ListPractical.median(nullList));
 		assertNull(ListPractical.median(emptyList));
-		
+
 		assertNotNull(ListPractical.median(singleItemList));
 		assertTrue(50,ListPractical.median(singleItemList));
-		
+
 		assertNotNull(ListPractical.median(list));
 		assertTrue(20,ListPractical.median(list));
 	}
