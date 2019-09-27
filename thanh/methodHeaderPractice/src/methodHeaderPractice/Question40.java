@@ -5,9 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class Question40 {
 	/**
+	 * assume not null and not empty
 	 * @param str
-	 * @return return true if String str has repeating characters
-	 * 			.Otherwise, return false.
+	 * @return return true if String str has repeating characters.
+	 * Otherwise, return false.
 	 */
 
 	@Test
