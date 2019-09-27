@@ -57,17 +57,23 @@ class ListPracticalTest {
 
 	@Test
 	void testLastItem() {
-		assertTrue(ListPractical.lastItem(nullList)==null);
-		assertTrue(ListPractical.lastItem(emptyList)==null);
-		assertTrue(ListPractical.lastItem(list)==-80);
+		assertNull(ListPractical.lastItem(nullList));
+		assertNull(ListPractical.lastItem(emptyList));
+		
+		assertNotNull(ListPractical.lastItem(list));
+		assertTrue(-80,ListPractical.lastItem(list));
 	}
 
 	@Test
 	void testSumFirstLast() {
-		assertTrue(ListPractical.sumFirstLast(nullList)==null);
-		assertTrue(ListPractical.sumFirstLast(emptyList)==null);
-		assertTrue(ListPractical.sumFirstLast(singleItemList)==50);
-		assertTrue(ListPractical.sumFirstLast(list)==-70);
+		assertNull(ListPractical.sumFirstLast(nullList));
+		assertNull(ListPractical.sumFirstLast(emptyList));
+		
+		assertNotNull(ListPractical.sumFirstLast(singleItemList));
+		assertTrue(50,ListPractical.sumFirstLast(singleItemList));
+		
+		assertNotNull(ListPractical.sumFirstLast(list));
+		assertTrue(-70,ListPractical.sumFirstLast(list));
 	}
 	
 	@Test
@@ -82,20 +88,33 @@ class ListPracticalTest {
 
 	@Test
 	void testCountPositives() {
-		assertTrue(ListPractical.countPositives(nullList)==0);
-		assertTrue(ListPractical.countPositives(emptyList)==0);
-		assertTrue(ListPractical.countPositives(singleItemList)==1);
-		assertTrue(ListPractical.countPositives(list)==3);
+		assertNotNull(ListPractical.countPositives(nullList));
+		assertTrue(0,ListPractical.countPositives(nullList));
+		
+		assertNotNull(ListPractical.countPositives(emptyList));
+		assertTrue(0,ListPractical.countPositives(emptyList));
+		
+		assertNotNull(ListPractical.countPositives(singleItemList));
+		assertTrue(1,ListPractical.countPositives(singleItemList));
+		
+		assertNotNull(ListPractical.countPositives(list));
+		assertTrue(3,ListPractical.countPositives(list));
 		list.add(90); //another 90 added to the end of the list
-		assertTrue(ListPractical.countPositives(list)==4);
+		
+		assertNotNull(ListPractical.countPositives(list));
+		assertTrue(4,ListPractical.countPositives(list));
 	}
 
 	@Test
 	void testMedian() {
-		assertTrue(ListPractical.median(nullList)==null);
-		assertTrue(ListPractical.median(emptyList)==null);
-		assertTrue(ListPractical.median(singleItemList)==50);
-		assertTrue(ListPractical.median(list)==20);
+		assertNull(ListPractical.median(nullList));
+		assertNull(ListPractical.median(emptyList));
+		
+		assertNotNull(ListPractical.median(singleItemList));
+		assertTrue(50,ListPractical.median(singleItemList));
+		
+		assertNotNull(ListPractical.median(list));
+		assertTrue(20,ListPractical.median(list));
 	}
 
 	@Test
