@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class Question33 {
 	/**
-	 *
+	 * assume not null
 	 * @param str1
 	 * @param str2
 	 * @return return true if 2 strings are the same. otherwise, return false
@@ -13,6 +13,8 @@ public class Question33 {
 
 	@Test
 	void testSame() {
+		
+		assertTrue(same("",""));
 		assertTrue(same("hi", "hi"));
 		String a = new String("hi");
 		String b = new String("hi");
