@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class Question35 {
 	/**
 	 * 
-	 * @param str
+	 * @param str, assume not null, not empty
 	 * @return a similar string without last character of String str
 	 */
 
